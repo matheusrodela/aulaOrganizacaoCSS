@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padronização CSS</title>
+
+    <!--CSS -->
+    <link rel="stylesheet" href="css/global.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/whatsCSSArticle.css">
+    <link rel="stylesheet" href="css/styleTypesArticle.css">
+    <link rel="stylesheet" href="css/logoLoop.css">
+
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Live de Web</h1>
+            <h4 >Padronização CSS</h4>
+        </div>
+    </header>
+    <main>
+        <section id="conteudo">
+            <article id="whatsCSSArticle">
+                <h2>O que é o CSS?</h2>
+                <p>Enquanto o HTML é a estrutura lógica da página, o CSS é o design e a beleza. <br> Imagine que na construção de um prédio, o HTML é o engenheiro e o CSS o arquiteto.</p>
+                <p>A estrutura HTML dessa página e da de hierarquia é quase a mesma. O que muda principalmente é a presença do CSS.</p>
+            </article>
+            <article id="styleTypesArticle">
+                <h3>Inline vs arquivo</h3>
+                <p>Podemos estilizar o HTML de 2 maneiras.</p>
+                <ul>
+                    <li>Inline</li>
+                    <ul>
+                        <li style="color: red; font-weight: 800;">Usando atributo style direto na tag.</li>
+                        <ul>
+                            <li>Exemplo a cima: &lt;li style="color: red; font-weight: 800;"&gt;Usando ...&lt;/li&gt;</li>
+                        </ul>
+                    </ul>
+                    <li>Arquivo css</li>
+                    <ul>
+                        <li>Podemos criar <u><strong>arquivos</strong></u> separados do HTML contendo nossa estilização. </li>
+                        <li>Esses arquivos devem ser adicionados na tag &lt;head&gt; do HTML onde serão utilizados.</li>
+                    </ul>
+                </ul>
+            </article>
+            <article class="logoLoopArticle">
+                <div class="logoLoop">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+
+                </div>
+            </article>
+            <article>
+                <h3 >Organização - Tag vs ID vs Classe</h3>
+                <p>Podemos selecionar quais itens serão estilizados de diversas maneiras. As 3 mais comuns são: </p>
+                <ul>
+                    <li>Por Tag</li>
+                        <ul>
+                            <li>No arquivo CSS, podemos fazer uma estilização para todas as tags do tipo selecionado contidas naquela página.</li>
+                            <ul>
+                                <li>Exemplo: h1{font-size: 2.5rem;}</li>
+                            </ul>
+                        </ul>
+                    <li>Por ID</li>
+                        <ul>
+                            <li>Podemos selecionar <u>uma tag específica</u>, marcada por uma id (id="nomeDaId") e acessa-la no documento CSS usando #</li>
+                            <ul>
+                                <li>Exemplo: #nomeDaId{color: blue;}</li>
+                            </ul>
+                        </ul>
+                    <li>Por Classe</li>
+                        <ul>
+                            <li>Podemos selecionar <u>um grupo de tags</u>, marcadas por uma classe (class="nomeDaClasse") e acessa-las no documento CSS usando.</li>
+                            <ul>
+                                <li>Exemplo: .nomeDaClasse{color: purple;}</li>
+                            </ul>
+                        </ul>
+                </ul>
+            </article>
+            <article class="logoLoopArticle">
+                <div class="logoLoop">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+                    <img src="./imgs/Versions=Gradient 1-2.png" alt="logo" class="logos">
+
+                </div>
+            </article>
+            <article>
+                <h3> Padronizando seu código</h3>
+                <p>Existem algumas dicas padrão para organização e padronização de código.</p>
+                <ul>
+                    <li>Crie um documento de estilização global.</li>
+                        <ul>
+                            <li>Nele, você fará a organização básica da página. Padding das laterais, espaçamento do texto, fonte, tamanho da fonte dos de títulos e parágrafos, etc. </li>
+                        </ul>
+                    <li>Faça vários arquivos de CSS</li>
+                        <ul>
+                            <li>O tempo passa, você faz cada vez mais projetos e a organização para manutenção do CSS é muito importante. Crie arquivos separados para header, footer, sections, etc. Você vai agradecer por não ter que prestar manutenção em páginas com 500 linhas de css.</li>
+                            <li>Eu mesmo gostaria de ter aprendido isso antes kkk.</li>
+                        </ul>
+                    <li>Faça muitos comentários pelo seru código.</li>
+                        <ul>
+                            <li>Agora não parece útil, mas com o crescimento do projeto e das suas habilidades, é um hábito muito importante.</li>
+                        </ul>
+                </ul>
+            </article>
+        <section>
+            <article>
+                <h2>Exercício:</h2>
+                <p>Crie uma página completa com HTML e CSS em arquivo. Separe o CSS em vários arquívos e coloque comentários por todo o código para facilitar a compreensão.</p>
+                <p>Envie o repositório do GitHub para gustavo@projetodesenvolve.com.br</p>
+                <p>Não sabe colocar o código no GitHub? Assisa a aula de GitHub na plataforma.</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

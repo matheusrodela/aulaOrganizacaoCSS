@@ -1,0 +1,28 @@
+.logoLoopArticle{
+    display: flex;
+    align-items: center;
+    width: 100rem;
+    height: fit-content;
+    padding: 0;
+}
+
+.logoLoop{
+    width: 130%;
+    animation-name: animação;
+    animation-duration: 35s;
+    animation-iteration-count:infinite;
+
+    padding: 0;
+}
+
+@keyframes animação{
+    0% {margin-left: 0;}
+    50% {margin-left:-14%}
+    51% {margin-left:-14%}
+    100% {margin-left: 0%}
+}
+
+.logos{
+    height: 3rem;
+    margin: 1rem 1.5rem;
+}

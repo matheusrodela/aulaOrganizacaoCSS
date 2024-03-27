@@ -1,0 +1,47 @@
+
+/* ----- CORPO ----- */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Rajdhani", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+main{
+    padding: 11vh 0 2rem ;
+}
+
+article{
+    padding: 1rem 2rem;
+}
+
+/* ----- TEXTO ----- */
+h1{
+    font-size: 2rem;
+    margin: 0;
+}
+
+h2{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+h4{
+    font-size: 1.1rem;
+    color: rgb(65, 65, 65);
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+ul, li{
+    line-height: 1.8rem;
+}

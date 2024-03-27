@@ -1,0 +1,14 @@
+#whatsCSSArticle{
+    background-color: #8C44FF;
+    width: 100vw;
+    padding: 2rem;
+}
+
+#whatsCSSArticle h2{
+    color: #fff;
+}
+
+#whatsCSSArticle p{
+    color: #fff;
+    font-weight: 500;
+}
